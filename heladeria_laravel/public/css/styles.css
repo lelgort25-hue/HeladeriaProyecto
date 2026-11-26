@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff7ef;
+    color: #2f1a12;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.encabezado {
+    background: linear-gradient(135deg, #ff7f50, #ffb347);
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.encabezado h1 {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 20px;
+}
+
+.informacion {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(92, 52, 29, 0.12);
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.informacion h2 {
+    color: #c95d35;
+    margin-bottom: 12px;
+}
+
+.informacion p {
+    margin: 6px 0;
+}
+
+.sabores h2 {
+    color: #c95d35;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.productos {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.producto {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(92, 52, 29, 0.12);
+    overflow: hidden;
+    padding: 18px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.producto:hover {
+    transform: translateY(-6px);
+}
+
+.producto img {
+    height: 220px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.producto h3 {
+    color: #5e2f22;
+    margin: 12px 0 6px;
+}
+
+.producto p {
+    color: #c95d35;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: #5e2f22;
+    color: white;
+    margin-top: 35px;
+    padding: 18px;
+    text-align: center;
+}
